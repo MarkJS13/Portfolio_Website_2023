@@ -1,0 +1,138 @@
+@media (max-width: 950px) {
+    
+    .about {
+        padding-bottom: 50px;
+    }
+
+      .about-title h1 {
+        font-size: 60px;
+      }
+      
+      .about-me {
+        padding: 0 60px;
+        gap: 30px;
+      }
+      
+      .about .hero img {
+        width: 210px;
+        border-radius: 180px;
+      }
+      
+      .description {
+        width: 100%;
+      }
+      
+      .description p {
+        font-size: 14px;
+      }
+      
+      .tech-stacks {
+        padding-top: 45px;
+      }
+      
+      .tech-stacks p {
+        padding-bottom: 20px;
+      }
+      
+      .tech-stack-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .tech-stack-list li {
+        font-size: 25px;
+        gap: 5px;
+      }
+      
+      .tech-stack-list li span{
+        font-size: 12px;
+
+      }
+}
+
+@media (max-width: 618px) {
+    .about {
+        padding-bottom: 60px;
+    }
+      
+      .about-me {
+        padding: 0 30px;
+        gap: 40px;
+      }
+      
+      .about .hero img {
+        width: 200px;
+      }
+      
+      .description {
+        gap: 13px;
+      }
+      
+      .description p {
+        font-size: 13px;     
+      }
+      
+      .tech-stacks {
+        padding-top: 45px;
+      }
+      
+      .tech-stacks p {
+        padding-bottom: 20px;
+      }
+      
+      .tech-stack-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .tech-stack-list li {
+        font-size: 25px;
+        gap: 5px;
+      }
+      
+      .tech-stack-list li span{
+        font-size: 12px;
+      }
+}
+
+@media (max-width: 435px) {
+    .about-title h1 {
+        font-size: 35px;
+      }
+    .about {
+        padding-bottom: 70px;
+    }
+      
+      .about-me {
+        padding: 0 13px;
+        gap: 40px;
+      }
+      
+      .about .hero img {
+        width: 180px;
+      }
+      
+      .description p {
+        font-size: 13px;
+      }
+      
+      .tech-stacks {
+        padding-top: 45px;
+      }
+      
+      .tech-stacks p {
+        padding-bottom: 25px;
+        font-size: 12px;
+      }
+      
+      .tech-stack-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+      }
+      .tech-stack-list li {
+        font-size: 23px;
+        gap: 10px;
+      }
+      
+      .tech-stack-list li span{
+        font-size: 11px;
+      }
+}

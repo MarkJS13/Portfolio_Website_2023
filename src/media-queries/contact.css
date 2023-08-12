@@ -1,0 +1,92 @@
+@media (max-width: 655px) {
+    .contact .form {
+        width: 65%;
+      }
+      
+}
+
+@media (max-width: 586px) {
+    .contact {
+        gap: 30px;
+        padding: 0 30px;
+      }
+      
+      .contact-title h1{
+        font-size: 60px;
+      }
+      
+      .get-in-touch h1{
+        font-size: 22px;
+      }
+      
+      .get-in-touch h3{
+        font-size: 17px;
+      }
+      
+      
+      .socials {
+        gap: 15px;
+        padding-top: 30px;
+      }
+      
+      .socials li {
+        font-size: 25px;
+        cursor: pointer;
+      }
+      
+      .contact .form {
+        width: 60%;
+      }
+
+
+}
+
+@media (max-width: 450px) {
+    .contact .form {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 378px) {
+    .contact {
+        gap: 50px;
+        padding: 0 13px;
+      }
+      
+      .contact-title h1{
+        font-size: 35px;
+      }
+      
+      .get-in-touch h1{
+        font-size: 27px;
+        padding-bottom: 8px;
+        text-align: center;
+      }
+      
+      .get-in-touch h3{
+        font-size: 15px;
+        text-align: center;
+      }
+      
+      .send-message {
+        justify-content: center;
+      }
+      
+      .socials {
+        padding-top: 30px;
+        justify-content: center;
+      }
+      
+      .socials li {
+        font-size: 35px;
+        cursor: pointer;
+      }
+      
+      .contact .form {
+        width: 80%;
+        padding-bottom: 30px;
+      }
+      
+    
+}

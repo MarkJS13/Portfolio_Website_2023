@@ -1,0 +1,140 @@
+@media (max-width: 787px) {
+    .projects {
+        gap: 40px;
+        padding: 0 30px;
+        padding-bottom: 50px;
+      }
+      
+      .project-title {
+        padding-bottom: 0;
+      }
+      
+      .project-title h1{
+        font-size: 60px;
+      }
+      
+      .project-container {
+        gap: 85px;
+      }
+      
+      .project {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        gap: 25px;
+      }
+      
+      .project-details {
+        gap: 5px;
+      }
+      
+      .project-name {
+        padding-bottom: 5px;
+      }
+      
+      .project-name h2 {
+        font-size: 26px;
+      }
+      
+      .details p {
+        font-size: 13px;
+        
+      }
+      
+      .tech-used {
+        gap: 13px;
+        padding-top: 13px;
+        
+      }
+      
+      
+      .demo {
+        gap: 10px;
+      }
+      
+      .demo h1 {
+        font-size: 17px;
+      }
+      
+      .demo-tile {
+        gap: 13px;
+        font-size: 17px;
+      }
+      
+      
+      .checkout p {
+        font-size: 13px;
+      }
+      
+
+}
+
+@media (max-width: 465px) {
+    .projects {
+        padding: 0 13px;
+        padding-bottom: 20px;
+      }
+      
+      .project-title {
+        padding-bottom: 0;
+      }
+      
+      .project-title h1{
+        font-size: 35px;
+      }
+      
+      .project-container {
+        gap: 95px;
+      }
+      
+      .project {
+        grid-template-rows: 1fr 200px;
+        gap: 20px;
+      }
+      
+      .project-details {
+        gap: 4px;
+      }
+      
+      .project-name {
+        padding-bottom: 5px;
+      }
+      
+      .project-name h2 {
+        font-size: 23px;
+        
+      }
+      
+      .details p {
+        font-size: 13px;
+        
+      }
+      
+      .tech-used {
+        justify-content: center;
+        gap: 6px;
+      }
+
+      .tech-used p {
+        font-size: 9px;
+        
+      }
+      
+      .demo {
+        gap: 8px;
+      }
+      
+      .demo h1 {
+        font-size: 15px;
+      }
+      
+      .demo-tile {
+        gap: 12px;
+        font-size: 15px;
+      }
+      
+      
+      .checkout p {
+        font-size: 11px;
+      }   
+
+}
