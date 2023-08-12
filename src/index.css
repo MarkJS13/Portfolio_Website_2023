@@ -677,11 +677,6 @@ text-decoration: underline;
   color: var(---light);
 }
 
-.menu-bar a:hover {
-  background-color: var(---yellowish);
-  border-radius: 5px;
-}
-
 
 .active {
   color: var(---yellowish) !important;

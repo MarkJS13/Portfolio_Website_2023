@@ -77,24 +77,25 @@
     }
       
     .home .name{
-        gap: 10px;
+        gap: 20px;
     }
       
     .home .name h1{
-        font-size: 25px;
+        font-size: 37px;
     }
       
     .home .name h2{
-        font-size: 15px;
+        font-size: 20px;
         padding-bottom: 0px;
     }
         
     .see-more {
-        gap: 0px;
+        gap: 5px;
+        padding-top: 25px;
     }
       
     .see-more p {
-        font-size: 10px;
+        font-size: 13px;
         padding: 4px 7px;
     }
 
