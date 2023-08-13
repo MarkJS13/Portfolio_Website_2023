@@ -82,6 +82,10 @@
         font-size: 35px;
         cursor: pointer;
       }
+
+      .socials a:hover {
+        background-color: unset;
+      }
       
       .contact .form {
         width: 80%;

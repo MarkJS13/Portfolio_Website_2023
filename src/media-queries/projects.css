@@ -70,7 +70,7 @@
 
 @media (max-width: 465px) {
     .projects {
-        padding: 0 13px;
+        padding: 0 18px;
         padding-bottom: 20px;
       }
       
@@ -110,7 +110,6 @@
       }
       
       .tech-used {
-        justify-content: center;
         gap: 6px;
       }
 
@@ -120,16 +119,16 @@
       }
       
       .demo {
-        gap: 8px;
+        gap: 10px;
       }
       
       .demo h1 {
-        font-size: 15px;
+        font-size: 20px;
       }
       
       .demo-tile {
-        gap: 12px;
-        font-size: 15px;
+        gap: 17px;
+        font-size: 20px;
       }
       
       

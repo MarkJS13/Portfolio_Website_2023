@@ -740,7 +740,7 @@ text-decoration: underline;
 
 @media (max-width: 375px) {
   header {
-    padding: 0 13px;
+    padding: 0 18px;
   }
 
 
@@ -754,7 +754,7 @@ text-decoration: underline;
   }
 
   footer {
-    margin: 0 13px;
+    margin: 0 18px;
   
   }
 
