@@ -1,5 +1,6 @@
 import forum from '/src/assets/images/screenshots/forum.png'
 import todolist from '/src/assets/images/screenshots/todo.png'
+import news from '/src/assets/images/screenshots/news.png'
 import { FaGithub } from 'react-icons/fa'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 
@@ -12,38 +13,39 @@ const Projects = () => {
 
            <div className="project-container" data-aos="fade-up" data-aos-duration="1000">
 
-            <div className="project">
+           <div className="project">
                 <div className="project-details">
                     <div className="project-name">
-                        <h2> Rabbit Forum App </h2>
+                        <h2> News Homepage </h2>
                     </div>
                     
                     <div className="details">
                         <p> 
-                            Rabbit is a simple forum application. It's designed for seamless user interaction, allowing users to post, comment, reply, and like in a secure environment. The authentication system is powered by Laravel Breeze
+                            This is a simple News Homepage challenge by Frontend Mentor. A simple project that serves as a showcase of my front-end development skills and visually appealing design.
                         </p>
 
                         <div className="tech-used">
-                                <p>#CSS</p>
-                                <p>#Javascript </p>
-                                <p>#Laravel</p>
-                                <p>#MySQL</p>
+                                <p>#HTML</p>
+                                <p>#CSS </p>
+                                <p>#Javascript</p>
                         </div>
                     </div>
                     
                 </div>
                 <div className="project-img">
-                    <img src={forum} alt="forum" />
+                    <img src={news} alt="news" />
                     <div className="demo" >
-                        <h1> Rabit Forum App</h1>
+                        <h1> News Homepage </h1>
                         <div className="demo-tile">
-                            <a href="http://markjhosting.x10.mx/" target='_blank'> <BsBoxArrowUpRight/></a>
-                            <a href="https://github.com/MarkJS13/Rabbit_Forum-App.git" target='_blank'> <FaGithub/> </a>
+                            <a href="https://markjs13.github.io/Frontend-Mentor-News-homepage/" target='_blank'> <BsBoxArrowUpRight/></a>
+                            <a href="https://github.com/MarkJS13/Frontend-Mentor-News-homepage.git" target='_blank'> <FaGithub/> </a>
                         </div>
                     </div>
                 </div>
 
             </div>
+
+            
 
             <div className="project">
                 <div className="project-details">
@@ -76,6 +78,7 @@ const Projects = () => {
 
             </div>
 
+
             <div className="project">
                 <div className="project-details">
                     <div className="project-name">
@@ -100,37 +103,6 @@ const Projects = () => {
                     <img src={forum} alt="forum" />
                     <div className="demo" >
                         <h1> Rabit Forum App</h1>
-                        <div className="demo-tile">
-                            <a href="http://markjhosting.x10.mx/" target='_blank'> <BsBoxArrowUpRight/></a>
-                            <a href="https://github.com/MarkJS13/Rabbit_Forum-App.git" target='_blank'> <FaGithub/> </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="project">
-                <div className="project-details">
-                    <div className="project-name">
-                        <h2> Todo List </h2>
-                    </div>
-                    
-                    <div className="details">
-                        <p> 
-                            A minimalist to-do list application with a dark/light theme toggle seamlessly manages your task and helps you to stay organized, making productivity effortless.
-                        </p>
-
-                        <div className="tech-used">
-                                <p>#React JS</p>
-                                <p>#CSS </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div className="project-img">
-                    <img src={todolist} alt="todo" />
-                    <div className="demo" >
-                        <h1> Todo List </h1>
                         <div className="demo-tile">
                             <a href="http://markjhosting.x10.mx/" target='_blank'> <BsBoxArrowUpRight/></a>
                             <a href="https://github.com/MarkJS13/Rabbit_Forum-App.git" target='_blank'> <FaGithub/> </a>
