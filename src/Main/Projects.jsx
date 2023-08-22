@@ -68,7 +68,7 @@ const Projects = () => {
                     <div className="demo" >
                         <h1> Todo List </h1>
                         <div className="demo-tile">
-                            <a href="https://markjs13.github.io/Todo_List_Frontend_Mentor/" target='_blank'> <BsBoxArrowUpRight/></a>
+                            <a href="https://mjs13-todolist.vercel.app/" target='_blank'> <BsBoxArrowUpRight/></a>
                             <a href="https://github.com/MarkJS13/Todo_List_Frontend_Mentor.git" target='_blank'> <FaGithub/> </a>
                         </div>
                     </div>
