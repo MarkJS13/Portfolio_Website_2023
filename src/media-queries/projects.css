@@ -1,5 +1,6 @@
 @media (max-width: 787px) {
     .projects {
+
         gap: 40px;
         padding: 0 30px;
         padding-bottom: 50px;
@@ -19,7 +20,7 @@
       
       .project {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: auto 2fr;
         gap: 25px;
       }
       

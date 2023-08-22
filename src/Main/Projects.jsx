@@ -1,6 +1,7 @@
 import forum from '/src/assets/images/screenshots/forum.png'
 import todolist from '/src/assets/images/screenshots/todo.png'
 import news from '/src/assets/images/screenshots/news.png'
+import shortly from '/src/assets/images/screenshots/shortly.png' 
 import { FaGithub } from 'react-icons/fa'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 
@@ -21,7 +22,7 @@ const Projects = () => {
                     
                     <div className="details">
                         <p> 
-                            This is a simple News Homepage challenge by Frontend Mentor. A simple project that serves as a showcase of my front-end development skills and visually appealing design.
+                            A single-page website challenge in Frontend Mentor. A project that serves as a showcase of my ability to create visually appealing designs.
                         </p>
 
                         <div className="tech-used">
@@ -29,8 +30,7 @@ const Projects = () => {
                                 <p>#CSS </p>
                                 <p>#Javascript</p>
                         </div>
-                    </div>
-                    
+                    </div>          
                 </div>
                 <div className="project-img">
                     <img src={news} alt="news" />
@@ -44,9 +44,7 @@ const Projects = () => {
                 </div>
 
             </div>
-
             
-
             <div className="project">
                 <div className="project-details">
                     <div className="project-name">
@@ -55,7 +53,7 @@ const Projects = () => {
                     
                     <div className="details">
                         <p> 
-                            A minimalist to-do list application that uses localStorage with a dark/light theme toggle seamlessly manages your task and helps you to stay organized, making productivity effortless.
+                            A minimalist to-do list application with a dark/light theme toggle and uses localStorage. Manages your task and helps you to stay organized.
                         </p>
 
                         <div className="tech-used">
@@ -78,6 +76,37 @@ const Projects = () => {
 
             </div>
 
+            <div className="project">
+                <div className="project-details">
+                    <div className="project-name">
+                        <h2> Shortly </h2>
+                    </div>
+                    
+                    <div className="details">
+                        <p> 
+                            Shortly is a URL Shortener App built using React that provides users the ability to convert long URLs into concise links. This app utilizes an API to generate and manage these shortened links.
+                        </p>
+
+                        <div className="tech-used">
+                                <p>#CSS</p>
+                                <p>#React JS </p>
+                                <p>#API</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className="project-img">
+                    <img src={shortly} alt="shortly" />
+                    <div className="demo" >
+                        <h1> Shortly </h1>
+                        <div className="demo-tile">
+                            <a href="https://shortly-mjs13.vercel.app" target='_blank'> <BsBoxArrowUpRight/></a>
+                            <a href="https://github.com/MarkJS13/Shortly_Frontend_Mentor.git" target='_blank'> <FaGithub/> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
             <div className="project">
                 <div className="project-details">
@@ -87,7 +116,7 @@ const Projects = () => {
                     
                     <div className="details">
                         <p> 
-                            Rabbit is a simple forum application. It's designed for seamless user interaction, allowing users to post, comment, reply, and like in a secure environment. The authentication system is powered by Laravel Breeze
+                            Rabbit is a simple forum application. It's designed for seamless user interaction, allowing users to post, comment, reply, and like in a secure environment. The authentication system is powered by Laravel Breeze.
                         </p>
 
                         <div className="tech-used">
@@ -111,7 +140,6 @@ const Projects = () => {
                 </div>
 
             </div>
-            
             
            </div>
 
