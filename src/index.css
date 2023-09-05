@@ -269,7 +269,7 @@ main {
 }
 
 .about-title h1 {
-  font-size: 65px;
+  font-size: clamp(2.1875rem, -0.1563rem + 7.5vw, 4.0625rem);
 }
 
 .about-me {
@@ -348,7 +348,7 @@ main {
 }
 
 .contact-title h1{
-  font-size: 65px;
+  font-size: clamp(2.1875rem, -0.1563rem + 7.5vw, 4.0625rem);
 }
 
 .get-in-touch h1{
@@ -520,9 +520,7 @@ main {
   color: var(---dark);
 }
 
-.show-form {
-  display: block !important;
-}
+
 
 /****projects****/
 
@@ -540,7 +538,7 @@ main {
 }
 
 .project-title h1{
-  font-size: 65px;
+  font-size: clamp(2.1875rem, -0.1563rem + 7.5vw, 4.0625rem);
 }
 
 .project-container {

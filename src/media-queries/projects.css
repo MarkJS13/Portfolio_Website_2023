@@ -1,6 +1,5 @@
 @media (max-width: 787px) {
     .projects {
-
         gap: 40px;
         padding: 0 30px;
         padding-bottom: 50px;
@@ -8,10 +7,6 @@
       
       .project-title {
         padding-bottom: 0;
-      }
-      
-      .project-title h1{
-        font-size: 60px;
       }
       
       .project-container {
@@ -77,10 +72,6 @@
       
       .project-title {
         padding-bottom: 0;
-      }
-      
-      .project-title h1{
-        font-size: 35px;
       }
       
       .project-container {

@@ -11,9 +11,6 @@
         padding: 0 30px;
       }
       
-      .contact-title h1{
-        font-size: 60px;
-      }
       
       .get-in-touch h1{
         font-size: 22px;
@@ -52,10 +49,6 @@
     .contact {
         gap: 50px;
         padding: 0 13px;
-      }
-      
-      .contact-title h1{
-        font-size: 35px;
       }
       
       .get-in-touch h1{

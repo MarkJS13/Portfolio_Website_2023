@@ -1,7 +1,8 @@
 import forum from '/src/assets/images/screenshots/forum.png'
 import todolist from '/src/assets/images/screenshots/todo.png'
 import news from '/src/assets/images/screenshots/news.png'
-import shortly from '/src/assets/images/screenshots/shortly.png' 
+import shortly from '/src/assets/images/screenshots/shortly.png'
+import sneako from '/src/assets/images/screenshots/e-commerce.png' 
 import { FaGithub } from 'react-icons/fa'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 
@@ -13,37 +14,6 @@ const Projects = () => {
             </div>
 
            <div className="project-container" data-aos="fade-up" data-aos-duration="1000">
-
-           <div className="project">
-                <div className="project-details">
-                    <div className="project-name">
-                        <h2> News Homepage </h2>
-                    </div>
-                    
-                    <div className="details">
-                        <p> 
-                            A single-page website challenge in Frontend Mentor. A project that serves as a showcase of my ability to create visually appealing designs.
-                        </p>
-
-                        <div className="tech-used">
-                                <p>#HTML</p>
-                                <p>#CSS </p>
-                                <p>#Javascript</p>
-                        </div>
-                    </div>          
-                </div>
-                <div className="project-img">
-                    <img src={news} alt="news" />
-                    <div className="demo" >
-                        <h1> News Homepage </h1>
-                        <div className="demo-tile">
-                            <a href="https://markjs13.github.io/Frontend-Mentor-News-homepage/" target='_blank'> <BsBoxArrowUpRight/></a>
-                            <a href="https://github.com/MarkJS13/Frontend-Mentor-News-homepage.git" target='_blank'> <FaGithub/> </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
             
             <div className="project">
                 <div className="project-details">
@@ -111,12 +81,44 @@ const Projects = () => {
             <div className="project">
                 <div className="project-details">
                     <div className="project-name">
+                        <h2> SNeak-O </h2>
+                    </div>
+                    
+                    <div className="details">
+                        <p> 
+                        Sneak-O is an e-commerce shoe store featuring an advanced filtering system and seamless add-to-cart functionality.
+                        </p>
+
+                        <div className="tech-used">
+                                <p>#CSS</p>
+                                <p>#React JS </p>
+                                <p>#Redux Toolkit</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className="project-img">
+                    <img src={sneako} alt="ecommerce" />
+                    <div className="demo" >
+                        <h1> Rabit Forum App</h1>
+                        <div className="demo-tile">
+                            <a href="https://sneak-o-markjs13.vercel.app/" target='_blank'> <BsBoxArrowUpRight/></a>
+                            <a href="https://github.com/MarkJS13/SNeak-O_e-commerce_shoes.git" target='_blank'> <FaGithub/> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="project">
+                <div className="project-details">
+                    <div className="project-name">
                         <h2> Rabbit Forum App </h2>
                     </div>
                     
                     <div className="details">
                         <p> 
-                            Rabbit is a simple forum application. It's designed for seamless user interaction, allowing users to post, comment, reply, and like in a secure environment. The authentication system is powered by Laravel Breeze.
+                            Rabbit is a forum application. It's designed for simple user interaction, allowing users to post, comment, reply, and like in a secure environment. The authentication system is powered by Laravel Breeze.
                         </p>
 
                         <div className="tech-used">

@@ -1,8 +1,9 @@
 import me from '/src/assets/images/me.jpg'
-import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaLaravel, FaGithub } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaLaravel } from 'react-icons/fa'
 import { DiJsBadge } from 'react-icons/di'
 import { BsGit } from 'react-icons/bs'
 import { SiMysql } from 'react-icons/si'
+import { BiLogoRedux } from 'react-icons/bi'
 
 
 const About = () => {
@@ -31,11 +32,11 @@ const About = () => {
                         <li><FaCss3Alt/> <span>CSS3</span></li>
                         <li className='javascript'><DiJsBadge/> <span> Javascript</span> </li>
                         <li> <FaReact/> <span> ReactJS</span></li>
+                        <li><BiLogoRedux/> <span>Redux Toolkit</span></li>
                         <li><FaPhp/> <span> PHP </span></li>
                         <li><SiMysql/> <span>MySQL</span></li>
                         <li><FaLaravel/> <span> Laravel </span></li>
                         <li><BsGit/> <span> Git </span></li>      
-                        <li><FaGithub/> <span>Github</span></li>
                     </div>
                 </div>
                 
