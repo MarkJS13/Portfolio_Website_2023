@@ -100,7 +100,7 @@ const Projects = () => {
                 <div className="project-img">
                     <img src={sneako} alt="ecommerce" />
                     <div className="demo" >
-                        <h1> Rabit Forum App</h1>
+                        <h1> SNeak-O </h1>
                         <div className="demo-tile">
                             <a href="https://sneak-o-markjs13.vercel.app/" target='_blank'> <BsBoxArrowUpRight/></a>
                             <a href="https://github.com/MarkJS13/SNeak-O_e-commerce_shoes.git" target='_blank'> <FaGithub/> </a>

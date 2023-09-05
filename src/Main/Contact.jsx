@@ -68,7 +68,8 @@ const Contact = (props)  => {
                 </div>
             </div>
 
-            <div className={`form ${props.isShow ? 'show-form' : ''}`}>
+            <div className={`form-container ${props.isShow ? 'show-form' : ''}`}>
+                <div className="form">
                 <form ref={form} onSubmit={sendEmail}>
                     <div>
                         <label htmlFor="user_name"> Name </label>
@@ -101,7 +102,8 @@ const Contact = (props)  => {
                 <div className="close-form" onClick={toggleForm}>
                     &times;
                 </div>  
-            </div> 
+                </div> 
+            </div>
         </section>
     )
 }

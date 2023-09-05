@@ -26,7 +26,7 @@ function App() {
  
   return (
     <div className={`container ${theme ? 'container-dark' : ''}`}>
-      <div className={`wrapper ${isShow ? 'show-wrapper' : ''}`}></div>
+      <div className={`wrapper ${isShow ? 'show-wrapper' : ''}`} onClick={() => setIsShow(false)}></div>
       { 
         loading ?
           <div className="loader">
